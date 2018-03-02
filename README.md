@@ -4,9 +4,7 @@ This is the replication code for the simulation component of the following worki
 
 Guide to the files:
 
-- siblingsd_runsimulation.R: this is the script that sources all other scripts involved in the simulation that are also posted in the present repository. 
-
-In particular, these scripts are the following, and should be stored in the same directory as this master file. The output are files summarizing the coefficients and p values to use in creating the figures and tables in the paper:
+- siblingsd_runsimulation.R: this is the script that sources all other scripts involved in the simulation that are also posted in the present repository. In particular, these scripts are the following, and should be stored in the same directory as this master file. The output are files summarizing the coefficients and p values to use in creating the figures and tables in the paper:
 
 	- vGWAS_1000replicates_createdf: this sets a seed and creates the simulation data (1000 replicates of size = 1000 sibling pairs; 2000 individuals). If you wish to change the parameters on the simulation (e.g., degree of confounding; sample size), you can edit this file.
 
